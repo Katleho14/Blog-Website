@@ -13,7 +13,7 @@ const connectDB = async () => {
   try {
     await mongoose.connect(process.env.MONGODB_URI, {
       useNewUrlParser: true,
-      useUnifiedTopology: true
+      useUnifiedTopology: true,
     });
     console.log('✅ MongoDB connected');
   } catch (err) {
@@ -22,19 +22,36 @@ const connectDB = async () => {
   }
 };
 
+// Recursively convert $oid and $date fields
+function cleanMongoDocument(obj) {
+  if (Array.isArray(obj)) {
+    return obj.map(cleanMongoDocument);
+  } else if (obj && typeof obj === 'object') {
+    const newObj = {};
+    for (const key in obj) {
+      if (key === '$oid') return obj['$oid'];
+      if (key === '$date') return new Date(obj['$date']);
+      newObj[key] = cleanMongoDocument(obj[key]);
+    }
+    return newObj;
+  }
+  return obj;
+}
+
 const seedData = async () => {
   try {
-    // Read data from JSON files
-    const blogs = JSON.parse(fs.readFileSync(path.join('data', 'test.blogs.json')));
-    const categories = JSON.parse(fs.readFileSync(path.join('data', 'test.categories.json')));
-    const posts = JSON.parse(fs.readFileSync(path.join('data', 'test.posts.json')));
+    const blogsRaw = JSON.parse(fs.readFileSync(path.join('data', 'test.blogs.json')));
+    const categoriesRaw = JSON.parse(fs.readFileSync(path.join('data', 'test.categories.json')));
+    const postsRaw = JSON.parse(fs.readFileSync(path.join('data', 'test.posts.json')));
 
-    // Clear existing data
+    const blogs = cleanMongoDocument(blogsRaw);
+    const categories = cleanMongoDocument(categoriesRaw);
+    const posts = cleanMongoDocument(postsRaw);
+
     await Blogs.deleteMany();
     await Categories.deleteMany();
     await Posts.deleteMany();
 
-    // Insert new data
     await Blogs.insertMany(blogs);
     await Categories.insertMany(categories);
     await Posts.insertMany(posts);
