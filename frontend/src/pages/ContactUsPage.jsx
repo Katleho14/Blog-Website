@@ -49,7 +49,7 @@ export default function ContactUsPage() {
     {
       icon: <MapPin className="h-8 w-8 text-purple-600" />,
       title: "Office Address",
-      details: ["8708 Technology Forest Pl 125 - G", "The Woodlands"],
+      details: ["8708 Technology Forest Pl 125 - G", "WeWork"],
     },
     {
       icon: <Phone className="h-8 w-8 text-purple-600" />,

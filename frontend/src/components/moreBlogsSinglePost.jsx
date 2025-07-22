@@ -1,8 +1,8 @@
 import { CalendarDays, Clock } from "lucide-react";
 import React from "react";
-import Img1 from "../../public/blog1-image6.png";
-import Img2 from "../../public/blog1-image7.png";
-import Img3 from "../../public/blog1-image8.png";
+import Img1 from "../assets/blog1-image6.png";
+import Img2 from "../assets/blog1-image7.png";
+import Img3 from "../assets/blog1-image8.png";
 import { AnimatedText, AnimatedCard } from "./AnimatedComponent";
 
 export default function MoreBlogsSinglePost() {

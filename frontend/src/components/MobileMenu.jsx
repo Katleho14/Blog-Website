@@ -54,7 +54,7 @@ export default function MobileNavigation({ isAuthenticated }) {
         <div className="flex items-center justify-between p-4 border-b">
           <Link to="/" onClick={() => handleLinkClick("/")}>
             <img
-              src="/frontend/public/logo-blog.png"
+              src="../assets/logo-blog.png"
               alt="Logo"
               className="h-8"
             />

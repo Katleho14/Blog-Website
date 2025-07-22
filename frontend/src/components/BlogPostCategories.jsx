@@ -54,23 +54,23 @@ export default function BlogPostCategories() {
 // categories data
 const categories = [
   {
-    image: "/instagramPost/img11.png",
+    image: "/frontend/src/assets/instagramPost/img11.png",
     text: "Social Media",
   },
   {
-    image: "/instagramPost/img10.png",
+    image: "/frontend/src/assets/instagramPost/img10.png",
     text: "Digital Marketing",
   },
   {
-    image: "/instagramPost/img8.png",
+    image: "/frontend/src/assets/instagramPost/img8.png",
     text: "Design & Development",
   },
   {
-    image: "/instagramPost/img9.png",
+    image: "/frontend/src/assets/instagramPost/img9.png",
     text: "Startup Agency",
   },
   {
-    image: "/instagramPost/img7.png",
+    image: "/frontend/src/assets/instagramPost/img7.png",
     text: "Life style",
   },
 ];

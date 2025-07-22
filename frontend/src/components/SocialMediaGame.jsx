@@ -1,5 +1,5 @@
 import React from "react";
-import socialmedia from "../../public/socialmediagame.png";
+import socialmedia from '../assets/socialmediagame.png';
 import { AnimatedText, AnimatedCard, AnimatedFade } from "./AnimatedComponent";
 
 export default function SocialMediaGame() {

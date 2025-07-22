@@ -79,7 +79,7 @@ export default function SecondNavbar() {
             {/* Logo  */}
             <Link to="/">
               <motion.img
-                src="/frontend/public/logo-blog.png"
+                src="../assets/logo-blog.png"
                 alt="Bloqiq Logo"
                 className="h-6 sm:h-7 md:h-8 cursor-pointer"
                 whileHover={{ scale: 1.05 }}

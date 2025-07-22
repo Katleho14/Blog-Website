@@ -50,10 +50,10 @@ export default function MediaPostCard() {
 }
 
 const Images = [
-  { image: "/instagramPost/img1.png" },
-  { image: "/instagramPost/img2.png" },
-  { image: "/instagramPost/img3.png" },
-  { image: "/instagramPost/img4.png" },
-  { image: "/instagramPost/img5.png" },
-  { image: "/instagramPost/img6.png" },
+  { image: "//frontend/src/assets/instagramPost/img1.png" },
+  { image: "//frontend/src/assets/instagramPost/img2.png" },
+  { image: "//frontend/src/assets/instagramPost/img3.png" },
+  { image: "//frontend/src/assets/instagramPost/img4.png" },
+  { image: "//frontend/src/assets/instagramPost/img5.png" },
+  { image: "//frontend/src/assets/instagramPost/img6.png" },
 ];

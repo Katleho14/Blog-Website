@@ -32,8 +32,9 @@ export default function WorkExperienceCard() {
 
 // work experience data
 const workExperience = [
-  { title: "Product Design", period: "2023 - Now" },
-  { title: "Brand Expertise", period: "2023 - Now" },
-  { title: "UI/UX Design", period: "2023 - Now" },
-  { title: "Web Developement", period: "2023 - Now" },
+  { title: "Product Design", period: "2024 - Now" },
+  { title: "Brand Expertise", period: "2024 - Now" },
+  { title: "UI/UX Design", period: "2024 - Now" },
+  { title: "Web Developement", period: "2024 - Now" },
+  { title: "SEO", period: "2024 - Now" },
 ];

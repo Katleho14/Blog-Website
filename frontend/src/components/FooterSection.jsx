@@ -15,7 +15,7 @@ export default function FooterSection() {
             {/* footer logo */}
             <Link to={"/"} className="cursor-pointer inline-block">
               <img
-                src="/frontend/public/logo-blog.png"
+                src="../assets/logo-blog.png"
                 alt="Blogiq Logo"
                 className="h-6 sm:h-8"
               />

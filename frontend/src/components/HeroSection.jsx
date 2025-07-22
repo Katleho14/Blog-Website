@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import heroImage from "../../public/hero1-image.png";
+import heroImage from "../assets/hero1-image.png";
 import SplitTextUsage from "./TextAnimations/SplitTextUsage";
 import BlurTextUsage from "./TextAnimations/BlurTextUsage";
 import { AnimatedFade, AnimatedCard, AnimatedText } from "./AnimatedComponent";

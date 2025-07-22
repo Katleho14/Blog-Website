@@ -150,13 +150,13 @@ export default function DefaultSinglePostPage() {
         {/* images  */}
         <AnimatedCard className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mt-4 sm:mt-6" delay={0.6}>
           <img
-            src="/blog-details-image2.png"
+            src="../assets/blog-details-image2.png"
             alt=""
             className="rounded-lg object-cover w-full h-auto"
           />
 
           <img
-            src="/blog-details-image3.png"
+            src="../assets/blog-details-image3.png"
             alt=""
             className="rounded-lg object-cover w-full h-auto "
           />
