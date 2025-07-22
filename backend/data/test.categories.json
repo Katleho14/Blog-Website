@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "680e55f7345e61aabc0cb307"
+  },
+  "image": "https://res.cloudinary.com/dqanrnqv0/image/upload/v1745769972/hmwtg7ahxxn6y6fdxbul.png",
+  "name": "Social Media",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e56a70706635a3961986f"
+  },
+  "image": "https://res.cloudinary.com/dqanrnqv0/image/upload/v1745770148/g5d1bchbze0x9cqczkcc.png",
+  "name": "Digital Marketing",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e56c30706635a39619872"
+  },
+  "image": "https://res.cloudinary.com/dqanrnqv0/image/upload/v1745770176/wffrd9v3igcrtib1otnb.png",
+  "name": "UI/UX",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e56dd0706635a39619875"
+  },
+  "image": "https://res.cloudinary.com/dqanrnqv0/image/upload/v1745770201/lvpsz60xlaxy1rnl1ave.png",
+  "name": "Business",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e56f50706635a39619878"
+  },
+  "image": "https://res.cloudinary.com/dqanrnqv0/image/upload/v1745770225/uzppggjukvoujnmaclpe.png",
+  "name": "Technology",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e57070706635a3961987b"
+  },
+  "image": "https://res.cloudinary.com/dqanrnqv0/image/upload/v1745770243/s1rpsjgrona67ffbyux8.png",
+  "name": "Travel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e571c0706635a3961987e"
+  },
+  "image": "https://res.cloudinary.com/dqanrnqv0/image/upload/v1745770265/wbaenmzmmda3zmy128db.png",
+  "name": "Trends",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e57350706635a39619881"
+  },
+  "image": "https://res.cloudinary.com/dqanrnqv0/image/upload/v1745770290/dagpfw9778urmxqlig8v.png",
+  "name": "Startup",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e574c0706635a39619884"
+  },
+  "image": "https://res.cloudinary.com/dqanrnqv0/image/upload/v1745770312/jdckus0jvvcwub1quqqj.png",
+  "name": "News",
+  "__v": 0
+}]
