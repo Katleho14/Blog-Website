@@ -1,12 +1,9 @@
 import React from 'react';
-import { Navigate } from 'react-router';
+import { Navigate } from 'react-router-dom'; // ✅ FIXED
 
 const ProtectedRoute = ({ children }) => {
-    // check if token is present in local storage
-    const isAuthenticated = localStorage.getItem('myToken');
-
-    // If the user is authenticated then render the children (protected component), otherwise redirect to login page
-    return isAuthenticated ? children : <Navigate to="/login" />;
+  const isAuthenticated = localStorage.getItem('myToken');
+  return isAuthenticated ? children : <Navigate to="/login" />;
 };
 
 export default ProtectedRoute;
