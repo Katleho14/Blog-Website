@@ -7,7 +7,7 @@ const Upload = upload.fields([
     { name: 'image', maxCount: 1 }
 ])
 
-import { createBlog, deleteBlogById, getAllBlogs, getBlogById, searchBlogs, updateBlogById } from "../controller/BlogController.js";
+import { createBlog, deleteBlogById, getAllBlogs, getBlogById, searchBlogs, updateBlogById } from "../controller/BlogControllerDev.js";
 
 const router = express.Router();
 
