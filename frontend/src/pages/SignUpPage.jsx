@@ -341,7 +341,7 @@ export default function SignUpPage() {
                             className="text-gray-500 mb-8 font-semibold opacity-85 text-sm sm:text-base"
                             variants={formItemVariants}
                         >
-                            Create an account today and start using Bloqiq
+                            Create an account today and start using vexon
                         </motion.p>
 
                         {/* registration form  */}

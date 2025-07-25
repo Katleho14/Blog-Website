@@ -141,7 +141,7 @@ export default function HeroSection() {
           >
             Social media is more than just a platform—it's a powerful tool for
             building connections, amplifying your brand, and driving growth. At
-            Bloqiq, we provide insights and strategies to help you stand out in
+            vexon, we provide insights and strategies to help you stand out in
             the ever-evolving social media landscape.
           </AnimatedText>
 

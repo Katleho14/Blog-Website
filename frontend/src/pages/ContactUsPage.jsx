@@ -44,7 +44,7 @@ export default function ContactUsPage() {
     {
       icon: <Mail className="h-8 w-8 text-purple-600" />,
       title: "Send Email",
-      details: ["support@Bloqiq.com", "contact@Bloqiq.com"],
+      details: ["support@vexon.com", "contact@vexon.com"],
     },
     {
       icon: <MapPin className="h-8 w-8 text-purple-600" />,
@@ -92,7 +92,7 @@ export default function ContactUsPage() {
         <AnimatedText className="text-center mb-10" delay={0.4}>
           <p className="text-gray-600 px-4 sm:px-8 md:px-16 lg:px-60 text-sm sm:text-base">
             Whether you have questions, feedback, or just want to say hello, we're
-            here to connect. Your thoughts and insights help us make Bloqiq better
+            here to connect. Your thoughts and insights help us make vexon better
             every day, and we're always excited to hear from our readers.
           </p>
         </AnimatedText>

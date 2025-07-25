@@ -132,7 +132,7 @@ export default function FooterSection() {
         <AnimatedFade className="flex flex-col sm:flex-row justify-between items-center border-t pt-4 border-gray-400 gap-3 sm:gap-4 mt-8" delay={0.7}>
           {/* copyright text */}
           <p className="text-base opacity-80 text-center sm:text-left">
-            © 2025 Bloqiq, Inc. All Rights Reserved.
+            © 2025 vexon, Inc. All Rights Reserved.
           </p>
 
           {/* privacy policy and terms */}

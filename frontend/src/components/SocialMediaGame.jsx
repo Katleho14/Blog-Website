@@ -20,7 +20,7 @@ export default function SocialMediaGame() {
             delay={0.3}
           >
             Unlock the tools and insights you need to thrive on social media
-            with Bloqiq. Join our community for expert tips, trending strategies,
+            with vexon. Join our community for expert tips, trending strategies,
             and resources that empower you to stand out and succeed.
           </AnimatedText>
 

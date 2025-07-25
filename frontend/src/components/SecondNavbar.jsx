@@ -80,7 +80,7 @@ export default function SecondNavbar() {
             <Link to="/">
               <motion.img
                 src="../assets/logo-blog.png"
-                alt="Bloqiq Logo"
+                alt="vexon Logo"
                 className="h-6 sm:h-7 md:h-8 cursor-pointer"
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
